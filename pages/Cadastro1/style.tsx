@@ -18,7 +18,11 @@ export const TextoCadastro = styled.div`
     font-weight: 500;
 `;
 
-export const CadastrarButton = styled.button`
+export const CadastrarButton = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     border-radius: 20px;
     background-color: #2B2B2B ;
     width: 180px;
@@ -31,6 +35,8 @@ export const CadastrarButton = styled.button`
     color: white;
 
     margin-top: 40px;
+
+    text-decoration: none;
 `;
 
 export const CadastroLogin = styled.div`

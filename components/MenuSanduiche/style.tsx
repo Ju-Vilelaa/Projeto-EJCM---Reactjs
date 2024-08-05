@@ -50,25 +50,29 @@ export const StyledBurger = styled.div<{ open: boolean }>`
 `;
 
 export const UsuarioConteiner= styled.div`
-    width: 100%;
-    height: 100px;
-    background-color: #2B2B2B;
-    display: flex;
-    
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #2B2B2B;
 `;
 
 export const UsuarioInfo = styled.div`
     display flex;
     align-items: center;
+    padding: 20px;
 `;
 
 export const UsuarioImg = styled.div` 
     width:50px;
     height: 50px;
 `;
-export const UsuarioNome = styled.div`
+export const UsuarioNome = styled.a`
     font-family: "montserrat", sans-serif;
     color: white;
+
+    margin-left: 10px;
+
+    text-decoration: none;
 `;
 
 export const Menu = styled.div`
@@ -86,7 +90,7 @@ export const Menu = styled.div`
 `;
 
 export const Sair = styled.div`
-    margin-top: 30vh;
+    margin-top: 20vh;
     margin-left: 9px;
     a{
       text-decoration: none;

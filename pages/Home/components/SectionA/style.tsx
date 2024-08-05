@@ -9,8 +9,13 @@ export const Section = styled.section`
 
 export const BemVindo = styled.section`
     display: flex;
-    aling-items: center;
     justify-content: center;
+    align-items: center;
+
+    img{
+        width: 42px;
+        height: 42px;
+    }
 
 `;
 

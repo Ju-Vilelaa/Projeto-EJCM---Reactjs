@@ -22,7 +22,11 @@ export const ButtonsUser = styled.div`
     margin-bottom: 20px;
 `;
 
-export const CadastrarButton = styled.button`
+export const CadastrarButton = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 20px;
     background-color: #2B2B2B ;
     width: 150px;
@@ -33,10 +37,16 @@ export const CadastrarButton = styled.button`
     font-size: 1.1em;
     font-weight: 400;
     color: white;
-   
+
+    text-decoration: none;
+    
 `;
 
-export const EntrarButton = styled.button`
+export const EntrarButton = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 20px;
     background-color: #2B2B2B ;
     width: 150px;
@@ -48,6 +58,9 @@ export const EntrarButton = styled.button`
     font-weight: 400;
     color: white;
     margin-right: 100px;
+
+    text-decoration: none;
+    
 `;
 
 

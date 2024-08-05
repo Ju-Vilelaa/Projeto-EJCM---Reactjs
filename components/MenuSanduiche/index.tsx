@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyledMenu, StyledBurger, UsuarioConteiner, Menu, Sair, UsuarioInfo, UsuarioNome, UsuarioImg} from './style';
 import { IoMenu } from "react-icons/io5";
 import { FaRegUserCircle } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+
 
 
 
@@ -30,19 +30,19 @@ const MenuSanduiche = () => {
             <UsuarioConteiner>
                 <UsuarioInfo>
                     <FaRegUserCircle size={30} color="white"/>
-                    <UsuarioNome>Usuário</UsuarioNome>
+                    <UsuarioNome href="/usuariovisitante">Usuário</UsuarioNome>
                 </UsuarioInfo>
                 
             </UsuarioConteiner>
 
             <Menu>
-                <a href="/">Editar dados</a>
+                <a href="/cadastro1">Editar dados</a>
                 <hr style={{width:"100%" , textAlign:"left" , marginLeft:"0"}}/>
-                <a  href="/about">Meus pedidos</a>
+                <a  href="/cadastro1">Meus pedidos</a>
                 <hr style={{width:"100%" , textAlign:"left" , marginLeft:"0"}}/>
-                <a  href="/contact">Meus produtos</a>
+                <a  href="/cadastro1">Meus produtos</a>
                 <hr style={{width:"100%" , textAlign:"left" , marginLeft:"0"}}/>
-                <a href="/contact">Meus pedidos</a>
+                <a href="/cadastro1">Meus pedidos</a>
             </Menu>
 
     

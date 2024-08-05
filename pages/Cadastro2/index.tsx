@@ -1,4 +1,3 @@
-import { Form } from "react-router-dom";
 import HeaderCadastro from "../../components/HeaderCadastro";
 import { ButtonCadastrar, FormDiv, FormInput, FormLabel, SectionA, SectionB, UnderLine } from "./style";
 import { FaFacebook } from "react-icons/fa";
@@ -44,7 +43,7 @@ const Cadastro2 = () => {
                 <FormInput type="password" placeholder="confirme sua senha" />
             </FormDiv>
 
-            <ButtonCadastrar>Cadastrar-se!</ButtonCadastrar>
+            <ButtonCadastrar href="/parabenscadastro">Cadastrar-se!</ButtonCadastrar>
         </SectionB>
             
         

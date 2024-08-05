@@ -23,8 +23,8 @@ const UsuarioVisitante = () => {
         <SectionA>
             <FaUserCircle size={150} color="black"/>
             <ButtonsUser>
-                <EntrarButton>Entrar</EntrarButton>
-                <CadastrarButton>Cadastrar</CadastrarButton>
+                <EntrarButton href = "/login">Entrar</EntrarButton>
+                <CadastrarButton href = "/cadastro2">Cadastrar</CadastrarButton>
             </ButtonsUser>
         </SectionA>
 

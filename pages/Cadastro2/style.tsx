@@ -43,7 +43,11 @@ export const FormInput= styled.input`
 export const FormLabel = styled.label`
 `;
 
-export const ButtonCadastrar = styled.button`
+export const ButtonCadastrar = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 20px;
     background-color: #2B2B2B ;
     width: 180px;
@@ -56,4 +60,6 @@ export const ButtonCadastrar = styled.button`
     color: white;
 
     margin-top: 40px;
+
+    text-decoration: none;
 `;

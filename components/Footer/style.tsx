@@ -9,6 +9,10 @@ export const FooterDiv = styled.footer`
     width: 100%;
     height: 70px;
     background-color: #2B2B2B;
+
+    a{
+    text-decoration: none;
+    }
     
 `;
 

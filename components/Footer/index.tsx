@@ -7,25 +7,25 @@ import { FooterTexto } from './style';
 const Footer = () => { 
   return (
     <FooterDiv>
-      <div>
+      <a href="/home">
         <img src={IconeHome}/>
         <FooterTexto>Home</FooterTexto>
-      </div>
+      </a>
 
-      <div>
+      <a href="/cadastro1">
         <img src={IconeChat}/>
         <FooterTexto>Chat</FooterTexto>
-      </div>
+      </a>
 
-      <div>
+      <a href="/cadastro1">
         <img src={IconeAviso}/>
         <FooterTexto>Avisos</FooterTexto>
-      </div>
+      </a>
 
-      <div>
+      <a href="/cadastro1">
         <img src={IconePerfil}/>
         <FooterTexto>Perfil</FooterTexto>
-      </div>
+      </a>
     </FooterDiv>
   );
 }
